@@ -18,22 +18,28 @@ while True:
     | guess what number I have.   |
     +=============================+
     """)
-
+    #Use try to handle ValueError on anything other than integer.
+    try:
     #Set secret number.
-    secret_number = 777
+        secret_number = 777
     #Set guess with input.
-    guess = int(input("Enter your guess: "))
+        guess = int(input("Enter your guess: "))
+    
+    
     #If guess matches secret number - break, else continue loop
-    if guess == secret_number:
-        print("Well done muggle! You are now free.")
-        break
-    elif guess == 7:
-        print("Getting closer...")
-        input("Press enter to continue...")
-    elif guess == 77:
-        print("Getting closer...")
-        input("Press enter to continue...")
-    else:
-        print("Ha ha! You're stuck in my loop!")
+        if guess == secret_number:
+            print("Well done muggle! You are now free.")
+            break
+        elif guess == 7:
+            print("Getting closer...")
+            input("Press enter to continue...")
+        elif guess == 77:
+            print("Getting closer...")
+            input("Press enter to continue...")
+        else:
+            print("Ha ha! You're stuck in my loop!")
+            input("Press enter to continue...")
+    except ValueError:
+        print("Value must an integer!!!")
         input("Press enter to continue...")
 
