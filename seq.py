@@ -25,7 +25,7 @@ while number != 0:
     number = int(input("Enter a number or type 0 to stop: "))
 
 #Print output of counters on break
-print(f"Odd: {odd_numbers} Even: {even_numbers} Div_3: {div_three}")
+print(f"Odd: {odd_numbers} \nEven: {even_numbers} \nDiv_3: {div_three}")
 
 
 
