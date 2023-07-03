@@ -2,8 +2,6 @@
 #Import OS for use in clearing screen.
 import os
 
-#Welcome screen.
-
 #Create loop to run the guessing game.
 while True:
 
@@ -24,7 +22,6 @@ while True:
         secret_number = 777
     #Set guess with input.
         guess = int(input("Enter your guess: "))
-    
     
     #If guess matches secret number - break, else continue loop
         if guess == secret_number:
