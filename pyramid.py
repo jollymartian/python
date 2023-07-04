@@ -5,7 +5,7 @@ blocks = int(input("Enter the number of blocks: "))
 #Set top layer to one block
 height = 0
 number_in_layer = 0
-blocks -= 0
+#blocks -= 0
 
 #Loop using blocks variable
 while blocks > 0:
