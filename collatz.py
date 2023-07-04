@@ -2,6 +2,8 @@ while True:
     steps = 0
     #1
     c0 = int(input("Enter number: "))
+    if c0 <= 0:
+        break
     while c0 != 1:
         steps += 1
         #2
@@ -17,5 +19,4 @@ while True:
         else:
             print(int(c0))
     print(f"Steps: {steps}")
-    if c0 == 'q':
-        break
+
