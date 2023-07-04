@@ -11,8 +11,7 @@ for letter in user_word:
     # Complete the body of the loop.
     if letter in vowels:
         continue
-    x = letter
-    word_without_vowels += x
+    word_without_vowels += letter
 
 # Print the word assigned to word_without_vowels.
 print(word_without_vowels)
