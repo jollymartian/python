@@ -6,3 +6,9 @@ countries = ['UK', 'Frnace', 'Spain']
 #Use zip and list to create list of paired tuples
 country_tuples = list (zip (capital_cities, countries))
 print(country_tuples)
+
+#Multiple values
+population = [80_000_000, 120_000_000, 100_000_000]
+
+country_tuples = list (zip (capital_cities, countries, population))
+print(country_tuples)
