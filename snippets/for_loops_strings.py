@@ -9,6 +9,13 @@ for i in x:
 	#Print each letter in sting(x) on same line using end="" to overwrite \n default
 	print(i, end = "")
 
+#The same can be achieved as follows:
+#Create for loop to pull index into the print
+#EG: range(len(x)) - len(x) = 5, range(5) create a list =[0,1,2,3,4]
+for i in range(len(x)):
+	#print(x[i]) on first loop prints the value of the created list at index 0 - 'h', and so on
+	print(x[i], end = '')
+
 #Seperate examples with newline
 print("\n")
 
@@ -34,4 +41,5 @@ print("\n")
 for i in x:
 	#Print each letter on newline
 	print(i)
+
 
