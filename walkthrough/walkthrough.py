@@ -6,9 +6,6 @@
 
 #q1) - create a variable called numOne and assign it with a float of 2
 #Cast as float using float
-import numbers
-
-
 numOne = float(2)
 
 #2) Create another varaible called numTwo and assign it with a float of 5
