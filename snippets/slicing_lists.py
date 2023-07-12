@@ -9,6 +9,9 @@ example_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 #however, only up to item 4 is printed (vlaue = 5)). This is due to first item index being 0.
 print(example_list[2:5])
 
+#Print a slice with increments of 3
+print(example_list[1:9:3])
+
 #Print first 5 items - starts at item 0 and ends at item 5
 print(example_list[:5])
 
