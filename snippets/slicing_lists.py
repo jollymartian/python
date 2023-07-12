@@ -12,6 +12,9 @@ print(example_list[2:5])
 #Print a slice with increments of 3
 print(example_list[1:9:3])
 
+#Print using negative postion - prints 2,3,4
+print(example_list[1:-5]
+
 #Print first 5 items - starts at item 0 and ends at item 5
 print(example_list[:5])
 
