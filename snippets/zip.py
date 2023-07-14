@@ -12,3 +12,6 @@ population = [80_000_000, 120_000_000, 100_000_000]
 
 country_tuples = list (zip (capital_cities, countries, population))
 print(country_tuples)
+
+#To create a dictionary using zip
+dict_1 = dict(zip(capital_cities, countries))
