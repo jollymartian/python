@@ -43,7 +43,7 @@ print("Example 4:")
 for number in list_1:
 	#if ststement to evaluate whether number is equivalent to 1
 	#If it is then "One" will be printed
-	#Else is needed to determine what happens if any other outcome other than,
+	#Else is needed to determine what happens if any other outcome other than
 	#is equivalent to 1 occurs
 	#Else prints the number
 	if number == 1:
@@ -87,7 +87,7 @@ list_6 = []
 
 #For each item (x) in list_6:
 for x in list_4:
-	#Using append add x to list_6
+	#Using append add x to list_6 from list_4
 	list_6.append(x)
 	#Using append add the value stored at index 0 in list_5, in this case
 	list_6.append(list_5[0])
@@ -95,7 +95,7 @@ for x in list_4:
 #This create a new list, list_6, with the values,
 #['a', 1, 'b', 1, 'c', 1]
 #Because it loops through x and each time reassigns x to the next value a, b or c and appends to list_6
-#But only ever references the value at list_5[0] which is one.
+#But only ever references the value at list_5[0] which is 1.
 #So on each loop it appends the value at x and then the value at list_6[0]
 #Eg.
 #First loop is x = 'a' and list_5[0] = 1
@@ -107,8 +107,8 @@ print("Example 7:")
 #Create an new empty list:
 list_7 = []
 #To append each value from seperate lists relative to each other you can use range and loop through the index
-#To create the correct amount of the index values use len() to get the number os items in a list
-#len(list_4) will return 3
+#To create the correct amount of the index values use len() to get the number of items in a list
+#len(list_4) will return 3, as there are 3 itmes in it - a,b,c
 #range will then be range(3) which is 0, 1, 2
 #The for loop will then iteratively work through the values 0, 1, 2
 for x in range(len(list_4)):
