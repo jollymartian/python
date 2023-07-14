@@ -49,7 +49,8 @@ print(f"Value: {a}\nType: {type(a)}")
 b = [10, 11, 12, 13]
 print("\nVariable b Original:")
 print(f"Variable: {b}\nType: {type(b)}")
+#Cast as tuple
 b = tuple(b)
-#b is now a list not a tuple
+#b is now a tuple not a tuple
 print("\nVariable b NEW")
 print(f"Value: {b}\nType: {type(b)}")
